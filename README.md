@@ -1,6 +1,6 @@
 This repository is to demonstrate a route filter implementation with zuul.
 
-This route filter will route to `<prefix>-local.<domain>` if a cookie named `controller-version` is not supplied.  If that cookie is supplied, then the request will be routed to `<prefix>-<cookie value).<domain>`.
+This route filter will route to `<prefix>-local.<domain>` if a cookie named `controller-version` is not supplied.  If that cookie is supplied, then the request will be routed to `<prefix>-<cookie value>.<domain>`.
 
 The simpleController service will add the cookie to the response.
 
