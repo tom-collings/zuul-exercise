@@ -1,0 +1,7 @@
+---
+applications:
+- name: zuul-router
+  memory: 1024M
+  path: target/simpleRouter-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  host: zuul-router

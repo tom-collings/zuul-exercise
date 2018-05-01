@@ -1,0 +1,7 @@
+---
+applications:
+- name: zuul-controller-newer
+  memory: 1024M
+  path: target/simpleController-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  host: zuul-controller
